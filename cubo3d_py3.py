@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Versão em python 3 parao desenho do cubo e rotação com controles deslizantes.
+# Versão em python 3 para o desenho do cubo e rotação com controles deslizantes.
 import tkinter as tk
 from math import radians, sin, cos
 
