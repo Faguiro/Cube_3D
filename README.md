@@ -22,4 +22,4 @@
 
 Essas propriedades matemáticas e técnicas programáticas combinadas permitem criar uma representação gráfica simples de um cubo 3D que pode ser girado interativamente usando controles deslizantes. É um projeto básico, mas demonstra os princípios fundamentais de desenho 3D e rotação em um ambiente web.
 
-### No arquivo ***cubo3d_py3.py***, há uma versão em python 3 para o desenho 3D do cubo e rotação com controles deslizantes
+### No arquivo `cubo3d_py3.py`, há uma versão em python 3 para o desenho 3D do cubo e rotação com controles deslizantes
