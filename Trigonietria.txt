@@ -1,0 +1,45 @@
+Vou explicar com mais profundidade a rotação 3D à luz da matemática e da trigonometria. 
+Vamos focar na rotação de um ponto tridimensional em torno dos eixos x, y e z, que são operações fundamentais na transformação 3D.
+
+Rotação 3D em Torno do Eixo x:
+
+A rotação em torno do eixo x é a rotação de um ponto em torno do eixo x. 
+Vamos usar as coordenadas (x, y, z) para representar o ponto original, e (x', y', z') para representar o ponto após a rotação.
+
+A fórmula para calcular as novas coordenadas (x', y', z') após a rotação em torno do eixo x por um ângulo α (em radianos) é:
+
+
+x' = x
+y' = y * cos(α) - z * sin(α)
+z' = y * sin(α) + z * cos(α)
+
+Aqui, estamos usando as funções trigonométricas seno (sin) e cosseno (cos) para calcular as novas coordenadas. 
+O ponto (x', y', z') é o resultado da rotação do ponto original (x, y, z) por um ângulo α.
+
+Rotação 3D em Torno do Eixo y:
+
+A rotação em torno do eixo y é a rotação de um ponto em torno do eixo y. 
+A fórmula para calcular as novas coordenadas (x', y', z') após a rotação em torno do eixo y por um ângulo β (em radianos) é:
+
+
+x' = x * cos(β) + z * sin(β)
+y' = y
+z' = -x * sin(β) + z * cos(β)
+Mais uma vez, estamos usando as funções seno (sin) e cosseno (cos) para calcular as novas coordenadas. 
+O ponto (x', y', z') é o resultado da rotação do ponto original (x, y, z) por um ângulo β.
+
+Rotação 3D em Torno do Eixo z:
+
+A rotação em torno do eixo z é a rotação de um ponto em torno do eixo z. 
+A fórmula para calcular as novas coordenadas (x', y', z') após a rotação em torno do eixo z por um ângulo γ (em radianos) é:
+
+
+x' = x * cos(γ) - y * sin(γ)
+y' = x * sin(γ) + y * cos(γ)
+z' = z
+Mais uma vez, as funções trigonométricas seno (sin) e cosseno (cos) são usadas para calcular as novas coordenadas. 
+O ponto (x', y', z') é o resultado da rotação do ponto original (x, y, z) por um ângulo γ.
+
+Essas fórmulas são essenciais para a compreensão das rotações 3D e são amplamente utilizadas na computação gráfica, jogos 3D e modelagem 3D. 
+Elas permitem que objetos tridimensionais sejam transformados e rotacionados de forma precisa e controlada. 
+A combinação dessas rotações pode ser usada para criar animações 3D complexas e renderizações realistas em ambientes virtuais.
