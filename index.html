@@ -1,9 +1,13 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Cubo 3D</title>
-        <link rel="stylesheet" href="styles.css">
-       
+        <link rel="stylesheet" preconect href="styles.css">
+
     </head>
     <body>
         <div class="container">
@@ -13,13 +17,13 @@
 
                 <div class="inputs">
                     <label for="alphaSlider">Alpha: <input type="range"
-                        id="alphaSlider" min="-180" max="180" step="1"
-                        value="0"></label>
+                            id="alphaSlider" min="-180" max="180" step="1"
+                            value="0"></label>
 
                     <label for="betaSlider">Beta: <input type="range"
                             id="betaSlider" min="-180" max="180" step="1"
                             value="0"></label>
-                   
+
                     <label for="gammaSlider">Gama: <input type="range"
                             id="gammaSlider" min="-180" max="180" step="1"
                             value="0"></label>
@@ -133,7 +137,7 @@
 
         drawCube();
     </script>
-	<script>
+        <script>
 		const heart = document.getElementsByTagName('footer')[0]; 
 		const link = 'https://snakeproject.pythonanywhere.com/'; 
 
